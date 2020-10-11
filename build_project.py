@@ -2,12 +2,12 @@ import sys
 import os
 
 if len(sys.argv) != 2:
-	print 'Use: build_project.py project_name'
+	print('Use: build_project.py project_name')
 else:
 	try:
 		os.mkdir(sys.argv[1])
 	except OSError:
-		print "Failed to create the target directory"
+		print("Failed to create the target directory")
 	else:
 		cf_file_info = [
 			"name: " + sys.argv[1] + "\n", "info: " + sys.argv[1] + "\n", "mode: 7\n"
