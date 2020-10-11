@@ -1,7 +1,9 @@
 # WonderWitchProjectMaker
-This is just a quick script I made to create new WonderWitch projects for me, as I got tired of making the same files over and over again.  Use is simple:
+This is just a quick script I made in both Bash and Python to create new WonderWitch projects for me, as I got tired of making the same files over and over again.  Use is simple:
 
 ```bash
+build_project.sh {project_name}
+
 python build_project.py {project_name}
 ```
 
